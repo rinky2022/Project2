@@ -1,0 +1,414 @@
+{
+    "category":
+    [
+        {
+            "id":1,
+            "name":"Flights"
+        },
+    
+        {
+            "id":2,
+            "name":"Trains"
+        },
+    
+        {
+            "id":3,
+            "name":"Bus"
+        },
+    
+        {
+            "id":4,
+            "name":"Cabs"
+        },
+    
+        {
+            "id":5,
+            "name":"Holiday Packages"
+        },
+    
+        {
+            "id":6,
+            "name":"Hotels"
+        }
+    ]
+,
+  "data":  [
+
+    {
+        "id":1,
+        "transport_Name":"Indigo",
+        "route":"New Delhi to Bangalore", 
+        "from":"New Delhi",
+        "to":"Bangalore",     
+        "category_id":1,
+        "cityid":1,
+        "class":"Economy",
+        "passengers":"1 Adult",
+        "trip type":"One Way",
+        "depart":"Mon Dec 27,2021",
+        "return":"",
+        "price":"Rs. 6531"
+
+    },
+
+    {
+        "id":2,
+        "transport_Name":"Vistara",
+        "route":"New Delhi to Bangalore", 
+        "from":"New Delhi",
+        "to":"Bangalore",         
+        "category_id":1,
+        "cityid":1,
+        "class":"Premium",
+        "passengers":"2 Adult,1 children",
+        "trip type":"Round Trip",
+        "depart":"Tue Dec 28,2021",
+        "return":"Tue Dec 28,2021",
+        "price":"Rs. 9632"
+
+    },
+
+    
+    {
+        "id":3,
+        "transport_Name":"AirAsia",
+        "route":"Kannur to Mumbai",  
+        "from":"Kannur",
+        "to":"Mumbai",       
+        "category_id":1,
+        "cityid":2,
+        "class":"Business",
+        "passengers":"Adult",
+        "trip type":"Round Trip",
+        "depart":"Tue Dec 28,2021",
+        "return":"Tue Dec 30,2021",
+        "price":"Rs. 9987"
+
+    },
+    {
+        "id":4,
+        "transport_Name":"SpiceJet",
+        "route":"Coimbatore to Hyderabad", 
+        "from":"Coimbatore",
+        "to":"Hyderabad",       
+        "category_id":1,
+        "cityid":3,
+        "class":"Economy",
+        "passengers":"3 Adult , 1 infant",
+        "trip type":"one way",
+        "depart":"Fri Dec 28,2021",
+        "return":"",
+        "price":"Rs. 5987"
+
+    },
+
+    {
+        "id":5,
+        "transport_Name":"SpiceJet",
+        "route":"Coimbatore to Delhi", 
+        "from":"Coimbatore",
+        "to":"Delhi",       
+        "category_id":1,
+        "cityid":3,
+        "class":"Economy",
+        "passengers":"3 Adult , 1 infant",
+        "trip type":"one way",
+        "depart":"Fri Dec 28,2021",
+        "return":"",
+        "price":"Rs. 5987"
+
+    },
+
+    {
+        "id":6,
+        "transport_Name":"Cape SBC Expres",
+        "route":"kochi to bangalore", 
+        "from":"kochi",
+        "to":"bangalore",       
+        "category_id":2,
+        "cityid":4,
+        "class":"First class AC",
+        "passengers":"3 Adult",
+        "trip type":"",
+        "depart":"Sat Jan 1,2022",
+        "return":"",
+        "price":"Rs. 3987"
+
+    },
+
+    {
+        "id":7,
+        "transport_Name":"Charminar Express",
+        "route":"chennai to hyderabad", 
+        "from":"chennai",
+        "to":"Hyderabad",       
+        "category_id":2,
+        "cityid":5,
+        "class":"sleeper",
+        "passengers":"4 Adult 2 children",
+        "trip type":"",
+        "depart":"Fri Dec 28,2021",
+        "return":"",
+        "price":"Rs. 3500"
+
+    },
+
+    {
+        "id":8,
+        "transport_Name":"Punjab mail",
+        "route":"Delhi to Mumbai",  
+        "from":"Delhi",
+        "to":"Mumbai",      
+        "category_id":2,
+        "cityid":1,
+        "class":"AC Chair car",
+        "passengers":"4 Adult 2 children",
+        "trip type":"",
+        "depart":"Tue Dec 28,2021",
+        "return":"",
+        "price":"Rs. 5987"
+
+    },
+
+    
+    {
+        "id":9,
+        "transport_Name":"Nethravathi Express",
+        "route":"Trivandrum to Mumbai", 
+        "from":"Trivandrum",
+        "to":"Mumbai",       
+        "category_id":2,
+        "cityid":6,
+        "class":"2 Tier AC",
+        "passengers":"5 Adult",
+        "trip type":"",
+        "depart":"Tue Dec 30,2021",
+        "return":"",
+        "price":"Rs. 5487"
+
+    },
+
+    {
+        "id":10,
+        "transport_Name":"HailTrip",
+        "route":"chennai to bangalore", 
+        "from":"Chennai",
+        "to":"Bangalore",       
+        "category_id":3,
+        "cityid":5,
+        "class":"AC sleeper",
+        "passengers":"4 Adult",
+        "trip type":"",
+        "depart":"Mon Dec 27,2021",
+        "return":"",
+        "price":"Rs. 3987"
+
+    },
+
+    {
+        "id":11,
+        "transport_Name":"Prasanna Purple Grand",
+        "route":"Goa to Pune", 
+        "from":"Goa",
+        "to":"Pune",       
+        "category_id":3,
+        "cityid":7,
+        "class":"AC sleeper",
+        "passengers":"4 Adult",
+        "trip type":"",
+        "depart":"Sun jan 2,2022",
+        "return":"",
+        "price":"Rs. 4587"
+
+    },
+
+    {
+        "id":12,
+        "transport_Name":"V2K Travels",
+        "route":"Chennai to Bangalore",  
+        "from":"Chennai",
+        "to":"Bangalore",      
+        "category_id":3,
+        "cityid":1,
+        "class":"AC sleeper",
+        "passengers":"3 Adult",
+        "trip type":"",
+        "depart":"Sun jan 2,2022",
+        "return":"",
+        "price":"Rs. 3587"
+
+    },
+
+    {
+        "id":13,
+        "transport_Name":"Seabird Tourists",
+        "route":"Chennai to Goa", 
+        "from":"Chennai",
+        "to":"Goa",       
+        "category_id":3,
+        "cityid":5,
+        "class":"AC sleeper",
+        "passengers":"3 Adult",
+        "trip type":"",
+        "depart":"Sun jan 2,2022",
+        "return":"",
+        "price":"Rs. 3587"
+
+    },
+
+    {
+        "id":14,
+        "transport_Name":"Indica swift",
+        "route":"Chatrapati central station", 
+        "from":"",
+        "to":"",       
+        "category_id":4,
+        "cityid":"",
+        "class":"AC",
+        "passengers":"4 Adult",
+        "trip type":"cab from aiport",
+        "depart":"sat jan 1,2022",
+        "return":"",
+        "price":"Rs. 1587"
+
+    },
+
+    
+    {
+        "id":15,
+        "transport_Name":"Dzire,Etios",
+        "route":"Kannur International airport", 
+        "from":"",
+        "to":"",       
+        "category_id":4,
+        "cityid":"",
+        "class":"AC",
+        "passengers":"4 Adult",
+        "trip type":"cab from aiport",
+        "depart":"sat jan 1,2022",
+        "return":"",
+        "price":"Rs. 1587"
+
+    },
+
+    
+    {
+        "id":16,
+        "transport_Name":"Lalit Golf and spa resort",
+        "route":"",  
+        "from":"",
+        "to":"",      
+        "category_id":5,      
+        "cityid":"",
+        "class":"AC",
+        "passengers":"2 Adult",
+        "trip type":"",
+        "depart":"",
+        "return":"",
+        "price":"Rs. 30855"
+
+    },
+
+    {
+        "id":17,
+        "transport_Name":"Park Regis kris kin hotel",
+        "route":"",
+        "from":"",
+        "to":"",        
+        "category_id":5,
+        "cityid":"",
+        "class":"AC",
+        "passengers":"1 Adult",
+        "trip type":"",
+        "depart":"",
+        "return":"",
+        "price":"Rs. 14235"
+
+    },
+
+    {
+        "id":18,
+        "transport_Name":"North east Delight",
+        "route":"",  
+        "from":"",
+        "to":"",      
+        "category_id":6,
+        "cityid":"",
+        "class":"AC",
+        "passengers":"5 Adult",
+        "trip type":"7 day trip",
+        "depart":"Sat 1 Jan 2022",
+        "return":"Sat 7 jan 2022",
+        "price":"Rs. 36756 per person"
+
+    },
+
+    {
+        "id":19,
+        "transport_Name":"Road Trip to hills of Nainital of New Delhi",
+        "route":"",
+        "from":"",
+        "to":"",        
+        "category_id":6,
+        "cityid":"",
+        "class":"AC",
+        "passengers":"5 Adult",
+        "trip type":"7 day trip",
+        "depart":"Sat 1 Jan 2022",
+        "return":"Sat 7 jan 2022",
+        "price":"Rs. 18765 per person"
+
+    },
+
+    {
+        "id":20,
+        "transport_Name":"Amazing Goa Flight Inclusive with great deal offers",
+        "route":"", 
+        "from":"",
+        "to":"",       
+        "category_id":6,
+        "cityid":"",
+        "class":"AC",
+        "passengers":"5 Adult",
+        "trip type":"7 day trip",
+        "depart":"Sat 2 Jan 2022",
+        "return":"Sat 8 jan 2022",
+        "price":"Rs. 18765 per person"
+
+    }
+
+    
+],
+"dest":
+[
+    {
+        "id":1,
+        "city":"NewDelhi"
+    },
+    {
+        "id":2,
+        "city":"Kannur"
+    },
+    {
+        "id":3,
+        "city":"Coimbature"
+    },
+    {
+        "id":4,
+        "city":"Kochi"
+    },
+    {
+        "id":5,
+        "city":"Chennai"
+    },
+    {
+        "id":6,
+        "city":"Trivandrum"
+    },
+    {
+        "id":7,
+        "city":"Goa"
+    }
+]
+
+}

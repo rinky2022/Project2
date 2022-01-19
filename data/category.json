@@ -1,0 +1,31 @@
+[
+    {
+        "id":1,
+        "name":"Flights"
+    },
+
+    {
+        "id":2,
+        "name":"Trains"
+    },
+
+    {
+        "id":3,
+        "name":"Bus"
+    },
+
+    {
+        "id":4,
+        "name":"Cabs"
+    },
+
+    {
+        "id":5,
+        "name":"Holiday Packages"
+    },
+
+    {
+        "id":6,
+        "name":"Hotels"
+    }
+]
