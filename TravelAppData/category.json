@@ -14,18 +14,19 @@
         "name":"Bus"
     },
 
-    {
-        "id":4,
-        "name":"Cabs"
-    },
 
     {
-        "id":5,
+        "id":4,
         "name":"Holiday Packages"
     },
 
     {
-        "id":6,
+        "id":5,
         "name":"Hotels"
+    },
+    
+    {
+        "id":6,
+        "name":"Trip Idea"
     }
 ]
