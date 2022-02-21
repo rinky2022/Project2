@@ -9,10 +9,10 @@
 
 #coupon{
   
-    margin-left: 27%;
+    margin-left: 33%;
     margin-top: 10%;
     height:20%;
-    width:50%;
+    width:30%;
     visibility: hidden;
     z-index:100;    
     color: #fff;
@@ -184,11 +184,22 @@
     #moreInfo {
         margin-top: 80%;
     }
+    #coupon
+    {
+        margin-top: 20%;
+    }
   }
 
 @media screen and (max-width: 991px) {
     #moreInfo {
         margin-top: 130%;
+    }
+    #coupon
+    {
+        margin-top: 30%;
+    }
+    #heading{
+        margin-top: 10%;
     }
   }
 
@@ -196,6 +207,13 @@
 @media screen and (max-width: 909px) {
     #moreInfo {
         margin-top: 140%;
+    }
+    #coupon
+    {
+        margin-top: 30%;
+    }
+    #heading{
+        margin-top: 10%;
     }
   }  
 @media screen and (max-width: 845px) {
@@ -205,6 +223,9 @@
 
     #tripDestinations
     {
+        margin-top: 30%;
+    }
+    #heading{
         margin-top: 10%;
     }
   }  
@@ -215,7 +236,10 @@
     }
     #tripDestinations
     {
-        margin-top: 10%;
+        margin-top: 30%;
+    }
+    #heading{
+        margin-top: 20%;
     }
   } 
 @media screen and (max-width: 768px) {
@@ -224,7 +248,10 @@
     }
     #tripDestinations
     {
-        margin-top: 10%;
+        margin-top: 30%;
+    }
+    #heading{
+        margin-top: 20%;
     }
   }   
   @media screen and (max-width: 720px) {
@@ -233,6 +260,9 @@
     }
     #tripDestinations
     {
+        margin-top: 30%;
+    }
+    #heading{
         margin-top: 20%;
     }
   } 
@@ -242,6 +272,13 @@
     }
     #tripDestinations
     {
+        margin-top: 20%;
+    }
+    #coupon
+    {
+        margin-top: 30%;
+    }
+    #heading{
         margin-top: 20%;
     }
   }  
@@ -254,6 +291,13 @@
     {
         margin-top: 20%;
     }
+    #coupon
+    {
+        margin-top: 30%;
+    }
+    #heading{
+        margin-top: 20%;
+    }
   } 
   @media screen and (max-width: 575px) {
     #moreInfo {
@@ -261,6 +305,13 @@
     }
     #tripDestinations
     {
+        margin-top: 20%;
+    }
+    #coupon
+    {
+        margin-top: 30%;
+    }
+    #heading{
         margin-top: 20%;
     }
   } 
@@ -272,6 +323,13 @@
     {
         margin-top: 30%;
     }
+    #coupon
+    {
+        margin-top: 40%;
+    }
+    #heading{
+        margin-top: 20%;
+    }
   } 
   @media screen and (max-width: 530px) {
     #moreInfo {
@@ -280,5 +338,12 @@
     #tripDestinations
     {
         margin-top: 30%;
+    }
+    #coupon
+    {
+        margin-top: 40%;
+    }
+    #heading{
+        margin-top: 20%;
     }
   }

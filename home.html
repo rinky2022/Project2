@@ -4,6 +4,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
         <link href="home.css" rel="stylesheet" type="text/css"/>
+        <link href="Image/logo.PNG" rel="icon">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="home.js"></script>
     </head>
@@ -24,10 +25,10 @@
                             <a class="nav-link active" aria-current="page" href="#" style="font-family: Impact;color: rgb(110, 73, 17);">Travel on the Go</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link active" href="../Login/login.html" style="display:float-right;"><i class="fa fa-fw fa-user"></i>Log In</a>
+                            <a class="nav-link active" href="Login/login.html" style="display:float-right;"><i class="fa fa-fw fa-user"></i>Log In</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link active" href="../Signup/signup.html" style="display:float-right;"><i class="fa fa-fw fa-user"></i>Sign Up</a>
+                            <a class="nav-link active" href="Signup/signup.html" style="display:float-right;"><i class="fa fa-fw fa-user"></i>Sign Up</a>
                           </li>
                           <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,6 +43,9 @@
                           </li>
                          
                         </ul>
+                         <button class="btn btn-outline-secondary" type="button"style="border-radius:10%;width:10%;margin-right:2%" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                          <i class="fa fa-fw fa-search"></i> Search
+                        </button>
                      
                       </div>
                     </div>
@@ -64,11 +68,12 @@
         
                     function showPosition(data){
                         console.log(data)
-                       
+                        //x.innerText=`Latitude is ${data.coords.latitude}, longitude is ${data.coords.longitude}`
                         let lat = data.coords.latitude;
                         let long = data.coords.longitude
                         var url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=1&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
-                       
+                        /*var url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${data.coords.latitude},${data.coords.longitude}&key=`;
+                        */
                         fetch(url)
                         .then((res) => res.json())
                         .then((data) => {
@@ -101,25 +106,27 @@
 
           </div>
         
-            <div id="heading">
-              <h1>Discover the World</h1>
-              <br>
-            <h3 >Create your memorable vacations with us!!</h3>
-            </div>
+          <div id="heading">
+            <h1>Discover the World</h1>
+            <br>
+           <h3 >Create your memorable vacations with us!!</h3>
+          </div>
           </div>
               
        
         <script>
             window.onload = loadCoupon()
         </script>
-       
             
 
           <div id="canvas">
             <a class="btn btn-secondary"  data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                 Search your Travel options
-              </a>             
-             
+              </a>
+              <!-- <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                Button with data-bs-target
+              </button>
+               -->
               <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
@@ -134,11 +141,11 @@
                       Choose your Travel option
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <li><a class="dropdown-item" href="../Flights/flights.html">Flights</a></li>
-                      <li><a class="dropdown-item" href="#">Trains</a></li>
-                      <li><a class="dropdown-item" href="#">Cabs</a></li>
-                      <li><a class="dropdown-item" href="#">Hotels</a></li>
-                      <li><a class="dropdown-item" href="#">Holiday Packages</a></li>
+                      <li><a class="dropdown-item" href="Flights/flights.html">Flights</a></li>
+                      <li><a class="dropdown-item" href="Trains/train.html">Trains</a></li>
+                      <li><a class="dropdown-item" href="Bus/bus.html">Buses</a></li>
+                      <li><a class="dropdown-item" href="Hotels/hotel.html">Hotels</a></li>
+                      <li><a class="dropdown-item" href="Holiday_Packages/holiday.html">Holiday Packages</a></li>
                     </ul>
                   </div>
                 </div>
@@ -151,7 +158,7 @@
           
           <center>
             <div id="offers">
-              <h1> Best Deals and Offers</h1>
+              <h2> Best Deals and Offers</h2>
             </br>
               <center>
               <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -301,11 +308,11 @@
         <div id="moreInfo">
           <h5>QUICK LINKS</h5>
           <div id="quicklinks">                
-           <a href="../Flights/flights.html" target="_blank">Flights search</a>
-           <a href="../train.html" target="_blank">Train search</a>
-           <a href="../cab.html" target="_blank">Cab search</a>
-           <a href="../hotel.html" target="_blank">Hotel search</a>
-           <a href="../holiday.html" target="_blank">Holiday Packages search</a>
+           <a href="Flights/flights.html" target="_blank">Flights search</a>
+           <a href="Trains/train.html" target="_blank">Train search</a>
+           <a href="Bus/bus.html" target="_blank">Bus search</a>
+           <a href="Hotels/hotel.html" target="_blank">Hotel search</a>
+           <a href="Holiday_Packages/holiday.html" target="_blank">Holiday Packages search</a>
           </div>
         </div>
         <div id="desc">
@@ -319,7 +326,7 @@
         <div id="desc">
           <h5>About Us</h5>
           <div id="bookings">
-            Established on 2022, Travel on the Go offers you the best experience in booking your flights, hotel stays, holidays packages,trains, and cabs.
+            Established on 2022, Travel on the Go offers you the best experience in booking your flights, hotel stays, holidays packages,trains, and buses.
             Brings you the competitive airfares, exclusive discounts and best deals of all the bookings at your fingertips. We also provide you the trip ideas 
             and the most rated destinations to visit.
           </div>

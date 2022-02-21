@@ -2,7 +2,7 @@
 
     {
         "id":1,
-        "transport_Name":"Indigo",
+        "name":"Indigo",
         "image":"Image/indigologo.jpg",
         "route":"New Delhi to Bangalore", 
         "from":"NewDelhi",
@@ -30,7 +30,7 @@
     
     {
         "id":2,
-        "transport_Name":"Indigo",
+        "name":"Indigo",
         "image":"Image/indigologo.jpg",
         "route":"New Delhi to Bangalore", 
         "from":"NewDelhi",
@@ -58,7 +58,7 @@
     
     {
         "id":3,
-        "transport_Name":"Indigo",
+        "name":"Indigo",
         "image":"Image/indigologo.jpg",
         "route":"New Delhi to Bangalore", 
         "from":"NewDelhi",
@@ -86,7 +86,7 @@
 
     {
         "id":4,
-        "transport_Name":"Vistara",
+        "name":"Vistara",
         "image":"Image/Vistaralogo.png",
         "route":"New Delhi to Bangalore", 
         "from":"NewDelhi",
@@ -114,7 +114,7 @@
 
     {
         "id":5,
-        "transport_Name":"Vistara",
+        "name":"Vistara",
         "image":"Image/Vistaralogo.png",
         "route":"New Delhi to Bangalore", 
         "from":"NewDelhi",
@@ -143,7 +143,7 @@
     
     {
         "id":6,
-        "transport_Name":"AirIndia",
+        "name":"AirIndia",
         "image":"Image/Air-India-logo.png",
         "route":"Kannur to Mumbai",  
         "from":"Kannur",
@@ -170,7 +170,7 @@
     },
     {
         "id":7,
-        "transport_Name":"Indigo",
+        "name":"Indigo",
         "image":"Image/indigologo.jpg",
         "route":"Coimbatore to Hyderabad", 
         "from":"Coimbatore",
@@ -198,7 +198,7 @@
 
     {
         "id":8,
-        "transport_Name":"Indigo",
+        "name":"Indigo",
         "image":"Image/indigologo.jpg",
         "route":"Coimbatore to NewDelhi", 
         "from":"Coimbatore",
@@ -225,7 +225,7 @@
     },
     {
         "id":9,
-        "transport_Name":"GoFirst",
+        "name":"GoFirst",
         "image":"Image/Go-Firstlogo.jpg",
         "route":"Kochi to Chennai", 
         "from":"Kochi",
@@ -252,7 +252,7 @@
     },
     {
         "id":10,
-        "transport_Name":"AirIndia",
+        "name":"AirIndia",
         "image":"Image/Air-India-logo.png",
         "route":"Kochi to Chennai", 
         "from":"Kochi",
@@ -280,7 +280,7 @@
 
     {
         "id":11,
-        "transport_Name":"Air Asia",
+        "name":"Air Asia",
         "image":"Image/airasialogo.jpg",
         "route":"Kochi to Chennai", 
         "from":"Kochi",
@@ -308,7 +308,7 @@
     
     {
         "id":12,
-        "transport_Name":"Spicejet",
+        "name":"Spicejet",
         "image":"Image/spicejetlogo.jpg",
         "route":"New Delhi to Chennai", 
         "from":"New Delhi",
@@ -335,7 +335,7 @@
     },
     {
         "id":13,
-        "transport_Name":"Indigo",
+        "name":"Indigo",
         "image":"Image/indigologo.jpg",
         "route":"New Delhi to Bangalore", 
         "from":"NewDelhi",
@@ -363,7 +363,7 @@
 
     {
         "id":14,
-        "transport_Name":"Cape SBC Expres",
+        "name":"Cape SBC Expres",
         "route":"Kochi to bangalore", 
         "from":"Kochi",
         "to":"Bangalore",       
@@ -388,7 +388,7 @@
     },
     {
         "id":15,
-        "transport_Name":"Cape SBC Expres",
+        "name":"Cape SBC Expres",
         "route":"Kochi to bangalore", 
         "from":"Kochi",
         "to":"Bangalore",       
@@ -413,7 +413,7 @@
     },
     {
         "id":16,
-        "transport_Name":"Cape SBC Expres",
+        "name":"Cape SBC Expres",
         "route":"Kochi to bangalore", 
         "from":"Kochi",
         "to":"Bangalore",       
@@ -438,7 +438,7 @@
     },
     {
         "id":17,
-        "transport_Name":"Cape SBC Expres",
+        "name":"Cape SBC Expres",
         "route":"Kochi to bangalore", 
         "from":"Kochi",
         "to":"Bangalore",       
@@ -463,7 +463,7 @@
     },
     {
         "id":18,
-        "transport_Name":"Cape SBC Expres",
+        "name":"Cape SBC Expres",
         "route":"Kochi to bangalore", 
         "from":"Kochi",
         "to":"Bangalore",       
@@ -488,7 +488,7 @@
     },
     {
         "id":19,
-        "transport_Name":"SBC INTERCITY",
+        "name":"SBC INTERCITY",
         "route":"Kochi to bangalore", 
         "from":"Kochi",
         "to":"Bangalore",       
@@ -513,7 +513,7 @@
     },
     {
         "id":20,
-        "transport_Name":"KCVL YPR GR Expres",
+        "name":"KCVL YPR GR Expres",
         "route":"Kochi to bangalore", 
         "from":"Kochi",
         "to":"Bangalore",       
@@ -539,7 +539,7 @@
 
     {
         "id":21,
-        "transport_Name":"Charminar Express",
+        "name":"Charminar Express",
         "route":"chennai to hyderabad", 
         "from":"chennai",
         "to":"Hyderabad",       
@@ -563,7 +563,7 @@
     },
     {
         "id":22,
-        "transport_Name":"Charminar Express",
+        "name":"Charminar Express",
         "route":"chennai to hyderabad", 
         "from":"chennai",
         "to":"Hyderabad",       
@@ -587,7 +587,7 @@
     },
     {
         "id":23,
-        "transport_Name":"MAS HYB EXPRESS",
+        "name":"MAS HYB EXPRESS",
         "route":"chennai to hyderabad", 
         "from":"chennai",
         "to":"Hyderabad",       
@@ -611,7 +611,7 @@
     },
     {
         "id":24,
-        "transport_Name":"MAS HYB EXPRESS",
+        "name":"MAS HYB EXPRESS",
         "route":"chennai to hyderabad", 
         "from":"chennai",
         "to":"Hyderabad",       
@@ -639,7 +639,7 @@
 
     {
         "id":25,
-        "transport_Name":"Punjab mail",
+        "name":"Punjab mail",
         "route":"NewDelhi to Mumbai",  
         "from":"NewDelhi",
         "to":"Mumbai",      
@@ -663,7 +663,7 @@
     },
     {
         "id":26,
-        "transport_Name":"Punjab mail",
+        "name":"Punjab mail",
         "route":"NewDelhi to Mumbai",  
         "from":"NewDelhi",
         "to":"Mumbai",      
@@ -687,7 +687,7 @@
     },
     {
         "id":27,
-        "transport_Name":"MMCT TEJAS RAJ",
+        "name":"MMCT TEJAS RAJ",
         "route":"NewDelhi to Mumbai",  
         "from":"NewDelhi",
         "to":"Mumbai",      
@@ -714,7 +714,7 @@
     
     {
         "id":28,
-        "transport_Name":"Nethravathi Express",
+        "name":"Nethravathi Express",
         "route":"Trivandrum to Mumbai", 
         "from":"Trivandrum",
         "to":"Mumbai",       
@@ -738,7 +738,7 @@
     },
     {
         "id":29,
-        "transport_Name":"Nethravathi Express",
+        "name":"Nethravathi Express",
         "route":"Trivandrum to Mumbai", 
         "from":"Trivandrum",
         "to":"Mumbai",       
@@ -763,7 +763,7 @@
 
     {
         "id":30,
-        "transport_Name":"HailTrip",
+        "name":"HailTrip",
         "route":"chennai to bangalore", 
         "from":"Chennai",
         "to":"Bangalore",       
@@ -788,7 +788,7 @@
     
     {
         "id":31,
-        "transport_Name":"VHB Travels",
+        "name":"VHB Travels",
         "route":"chennai to bangalore", 
         "from":"Chennai",
         "to":"Bangalore",       
@@ -814,7 +814,7 @@
 
     {
         "id":32,
-        "transport_Name":"Prasanna Purple Grand",
+        "name":"Prasanna Purple Grand",
         "route":"Goa to Pune", 
         "from":"Goa",
         "to":"Pune",       
@@ -838,7 +838,7 @@
     },
     {
         "id":32,
-        "transport_Name":"Prasanna Purple Grand",
+        "name":"Prasanna Purple Grand",
         "route":"Goa to Pune", 
         "from":"Goa",
         "to":"Pune",       
@@ -862,7 +862,7 @@
     },
     {
         "id":33,
-        "transport_Name":"AAINATH TRAVELERS",
+        "name":"AAINATH TRAVELERS",
         "route":"Goa to Pune", 
         "from":"Goa",
         "to":"Pune",       
@@ -888,7 +888,7 @@
 
     {
         "id":34,
-        "transport_Name":"Seabird Tourists",
+        "name":"Seabird Tourists",
         "route":"Chennai to Goa", 
         "from":"Chennai",
         "to":"Goa",       
@@ -913,8 +913,8 @@
     },
 
     {
-        "id":34,
-        "transport_Name":"Bharathi Travels",
+        "id":35,
+        "name":"Bharathi Travels",
         "route":"Chennai to Goa", 
         "from":"Chennai",
         "to":"Goa",       
@@ -939,42 +939,111 @@
     },
     
     {
-        "id":16,
-        "transport_Name":"Lalit Golf and spa resort",
-        "route":"",  
-        "from":"",
-        "to":"",      
-        "category_id":5,      
-        "cityid":"",
-        "class":"AC",
-        "passengers":"2 Adult",
-        "trip type":"",
-        "depart":"",
-        "return":"",
-        "price":"Rs. 30855"
+        "id":36,
+        "name":"Park Regis Kris Kin Hotel",       
+        "area":"Dubai",
+        "checkin":"3 Feb 2022",   
+        "checkout":"4 Feb 2022",         
+        "category_id":4,
+        "cityid":1,
+        "rooms":1,
+        "guests":2,
+        "price":"₹. 6034",
+        "rating":"4.5/5",
+        "tag":"couple friendly, Dubai Assured",
+        "desc":"Visit attractions and popular malls via ADCB metro station (1.5 km).Relax at the hotel's rooftop pool with stunning skyline views, sauna, hot tub and Jacuzzi.Savour Indian delicacies at the on-site Masala Bazaar restaurant.",
+        "location":"An upscale property in Bur Dubai, Park Regis Kris Kin Hotel offers luxurious stays opposite Burjuman Mall and Burjuman Metro Station!",
+        "savings":"₹1872",
+        "isRefundable":"",
+        "image":"../Image/Phoenix_park_inn",
+        "image_gallery":[
+            "../Image/Phoenix_park_inn",
+            "../Image/Phoenix_park_inn_Goa",
+            "../Image/park-regis-kris-hotel_Dubai2.jpg"
+
+        ]
+
 
     },
-
+   
     {
-        "id":17,
-        "transport_Name":"Park Regis kris kin hotel",
-        "route":"",
-        "from":"",
-        "to":"",        
-        "category_id":5,
-        "cityid":"",
-        "class":"AC",
-        "passengers":"1 Adult",
-        "trip type":"",
-        "depart":"",
-        "return":"",
-        "price":"Rs. 14235"
+        "id":37,
+        "name":"Fortune Grand Hotel",       
+        "area":"Dubai",
+        "checkin":"3 Feb 2022",   
+        "checkout":"4 Feb 2022",         
+        "category_id":4,
+        "cityid":1,
+        "rooms":1,
+        "guests":2,
+        "price":"Rs. 3426",
+        "rating":"3.5/5",
+        "tag":"",
+        "desc":"It has a pool, hot tub and a nightclub for a fun-filled holiday.The hotel lies within 5 km of Dubai International Airport.The hotel’s multilingual staff is fluent in Hindi and Malayalam. Enjoy Indian food at in-house restaurants Padheyam, Ragini, and Sa Re Ga Ma.",
+        "location":"Located on Omar Bin Khattab Road, Fortune Grand Hotel offers wellness facilities and comfortable stays.",
+        "savings":"₹1129",
+        "isRefundable":"Non-refundable",
+        "image":"../Image/Dubai_Park_regis",
+        "image_gallery":[
+            "../Image/park-regis-kris-hotel_Dubai.jpg",
+            "../Image/park-regis-kris-hotel_Dubai1.jpg",
+            "../Image/park-regis-kris-hotel_Dubai2.jpg"
+        ]
 
     },
+    {
+        "id":38,
+        "name":"Phoenix Park Inn by Radisson",       
+        "area":"Goa",
+        "checkin":"3 Feb 2022",   
+        "checkout":"4 Feb 2022",         
+        "category_id":4,
+        "cityid":20,
+        "rooms":1,
+        "guests":4,
+        "price":"Rs. 4771",
+        "rating":"3.9/5",
+        "tag":"Resort",
+        "desc":"Take a refreshing dip in the outdoor swimming pool.Start your day with a refreshing workout session at the on-site fitness centre featuring state-of-the-art equipment.Satiate your palate with regional Goan dishes and mouth-watering international cuisines at the on-site restaurant, Chapora.",
+        "location":"Lavish rooms, multiple dining spots, an outdoor swimming pool and a host of amenities await you for a delightful stay at this luxurious property.",
+        "isRefundable":"",
+        "image":"../Image/Phoenix_park_inn",
+        "image_gallery":[
+            "../Image/Phoenix_park_inn",
+            "../Image/Phoenix_park_inn_Goa",
+            "../Image/park-regis-kris-hotel_Dubai2.jpg"
 
+        ]
+
+    },
+    {
+        "id":39,
+        "name":"Vivanta Goa, Panaji",       
+        "area":"Goa",
+        "checkin":"3 Feb 2022",   
+        "checkout":"4 Feb 2022",         
+        "category_id":4,
+        "cityid":20,
+        "rooms":1,
+        "guests":4,
+        "price":"₹ 7409",
+        "rating":"4.6/5",
+        "tag":"Resort",
+        "desc":"Features a full-service spa and a rooftop swimming pool for complete rejuvenation.Received the certification of “ISO 22K” for its quality food services.Arranges a romantic rooftop dinner with a 5-course gourmet meal and a fairytale setting.Houses award-winning restaurants serving exotic global flavours and handcrafted beverages.",
+        "location":"An epitome of excellence and luxury, Vivanta Goa delivers a fine blend of contemporary accommodation and state-of-the-art facilities.",
+        "isRefundable":"",
+        "image":"../Image/vivanta_goa_thumb.jpg",
+        "image_gallery":[
+            "../Image/vivanta_goa_thumb.jpg",
+            "../Image/vivanta_goa.jpg",
+            "../Image/vivanta_goa1.jpg"
+
+        ]
+
+    },
     {
         "id":18,
-        "transport_Name":"North east Delight",
+        "name":"North east Delight",
         "route":"",  
         "from":"",
         "to":"",      
@@ -991,7 +1060,7 @@
 
     {
         "id":19,
-        "transport_Name":"Road Trip to hills of Nainital of New Delhi",
+        "name":"Road Trip to hills of Nainital of New Delhi",
         "route":"",
         "from":"",
         "to":"",        
@@ -1008,7 +1077,7 @@
 
     {
         "id":20,
-        "transport_Name":"Amazing Goa Flight Inclusive with great deal offers",
+        "name":"Amazing Goa Flight Inclusive with great deal offers",
         "route":"", 
         "from":"",
         "to":"",       
